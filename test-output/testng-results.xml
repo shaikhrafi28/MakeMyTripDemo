@@ -2,12 +2,12 @@
 <testng-results total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-13T15:13:55Z" name="Suite" finished-at="2018-12-13T15:13:55Z" duration-ms="63">
+  <suite started-at="2018-12-13T15:17:08Z" name="Suite" finished-at="2018-12-13T15:17:09Z" duration-ms="65">
     <groups>
     </groups>
-    <test started-at="2018-12-13T15:13:55Z" name="Test" finished-at="2018-12-13T15:13:55Z" duration-ms="63">
+    <test started-at="2018-12-13T15:17:08Z" name="Test" finished-at="2018-12-13T15:17:09Z" duration-ms="65">
       <class name="com.makemytrip.qa.testcases.SignInPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:13:55Z" name="setUp" finished-at="2018-12-13T15:13:55Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:17:08Z" name="setUp" finished-at="2018-12-13T15:17:08Z" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -44,9 +44,9 @@ Method setUp requires 1 parameters but 0 were supplied in the @Configuration ann
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method signature="loginTest()[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:13:55Z" name="loginTest" finished-at="2018-12-13T15:13:55Z" duration-ms="17" status="SKIP">
+        <test-method signature="loginTest()[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:17:09Z" name="loginTest" finished-at="2018-12-13T15:17:09Z" duration-ms="20" status="SKIP">
         </test-method>
-        <test-method is-config="true" signature="cbrowser()[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:13:55Z" name="cbrowser" finished-at="2018-12-13T15:13:55Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="cbrowser()[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:17:09Z" name="cbrowser" finished-at="2018-12-13T15:17:09Z" duration-ms="0" status="SKIP">
         </test-method>
       </class>
     </test>
