@@ -28,9 +28,10 @@ public class SignInPageTest extends TestBaseSetup {
 	}
 
 	@BeforeMethod
-	@Parameters("browser")
-	public void setUp(String browser) throws InterruptedException {
-		initialization(browser);
+	//@Parameters("browser")
+	public void setUp() throws InterruptedException {
+		initialization("chrome");
+		giveUrl("makemytrip");
 		//switchtoframe();
 		signinPage = new SignInPage();
 		}
@@ -43,7 +44,7 @@ public class SignInPageTest extends TestBaseSetup {
 		
 	}
 	
-	@AfterMethod
+	@AfterMethod(enabled=false)
 	public void cbrowser(){
 		driver.quit();
 		

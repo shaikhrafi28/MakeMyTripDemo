@@ -88,6 +88,17 @@ public static void initialization(String browserName) {
 		
 
 	}
+
+public static void giveUrl(String url) {
+	
+	if (url.equals("makemytrip")) {
+	driver.get(prop.getProperty("MMTurl"));
+	}
+	
+	else{
+		System.out.println("No Link found");	
+		}
+	}
 	
 	public static void switchtoframe() throws InterruptedException
 	{
