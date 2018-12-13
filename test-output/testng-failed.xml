@@ -8,7 +8,6 @@
       <class name="com.makemytrip.qa.testcases.SignInPageTest">
         <methods>
           <include name="loginTest"/>
-          <include name="setUp"/>
         </methods>
       </class>
     </classes>

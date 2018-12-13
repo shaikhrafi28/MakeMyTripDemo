@@ -27,8 +27,8 @@ public class SignInPageTest extends TestBaseSetup {
 	}
 
 	@BeforeMethod
-	public void setUp() throws InterruptedException {
-		initialization("chrome");
+	public void setUp(String browser) throws InterruptedException {
+		initialization(browser);
 		//switchtoframe();
 		signinPage = new SignInPage();
 		}

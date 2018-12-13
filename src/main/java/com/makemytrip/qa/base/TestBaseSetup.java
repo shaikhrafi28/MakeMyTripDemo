@@ -34,7 +34,7 @@ public class TestBaseSetup {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") + "/MakeMyTripDemo/src/main/java/com/makemytrip/qa/config/config.properties");
+					System.getProperty("user.dir") + "/src/main/java/com/makemytrip/qa/config/config.properties");
 
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
