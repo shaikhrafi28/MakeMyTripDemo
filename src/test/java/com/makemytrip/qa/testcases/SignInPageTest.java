@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -27,13 +28,14 @@ public class SignInPageTest extends TestBaseSetup {
 	}
 
 	@BeforeMethod
+	@Parameters("browser")
 	public void setUp(String browser) throws InterruptedException {
 		initialization(browser);
 		//switchtoframe();
 		signinPage = new SignInPage();
 		}
 
-	@Test
+	@Test(priority = 1)
 
 	public void loginTest() {
 		signinPage.clickldrop();

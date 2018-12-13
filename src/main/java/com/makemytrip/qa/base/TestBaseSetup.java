@@ -51,7 +51,7 @@ public static void initialization(String browserName) {
 				
 			//WebDriverManager.chromedriver().setup();
 			
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/MakeMyTripDemo/src/test/resources/drivers/windows/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/test/resources/drivers/windows/chromedriver.exe");
 			
 			driver = new ChromeDriver();
 			System.out.println("Chrome Invoked");

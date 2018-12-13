@@ -2,25 +2,42 @@
 <testng-results total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-13T15:17:08Z" name="Suite" finished-at="2018-12-13T15:17:09Z" duration-ms="65">
+  <suite started-at="2018-12-13T15:24:47Z" name="Suite" finished-at="2018-12-13T15:24:47Z" duration-ms="190">
     <groups>
     </groups>
-    <test started-at="2018-12-13T15:17:08Z" name="Test" finished-at="2018-12-13T15:17:09Z" duration-ms="65">
+    <test started-at="2018-12-13T15:24:47Z" name="Test" finished-at="2018-12-13T15:24:47Z" duration-ms="190">
       <class name="com.makemytrip.qa.testcases.SignInPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:17:08Z" name="setUp" finished-at="2018-12-13T15:17:08Z" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@7dcf94f8]" started-at="2018-12-13T15:24:47Z" name="setUp" finished-at="2018-12-13T15:24:47Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[
-Method setUp requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+              <![CDATA[The driver executable does not exist: C:\Users\shaikh.mohammad.rafi\Documents\GitHub\Latest\MakeMyTripDemo\MakeMyTripDemo\src\test\resources\drivers\windows\chromedriver.exe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method setUp requires 1 parameters but 0 were supplied in the @Configuration annotation.
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:186)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:122)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:77)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:198)
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\shaikh.mohammad.rafi\Documents\GitHub\Latest\MakeMyTripDemo\MakeMyTripDemo\src\test\resources\drivers\windows\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.makemytrip.qa.base.TestBaseSetup.initialization(TestBaseSetup.java:56)
+	at com.makemytrip.qa.testcases.SignInPageTest.setUp(SignInPageTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:543)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:212)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:631)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
@@ -44,9 +61,9 @@ Method setUp requires 1 parameters but 0 were supplied in the @Configuration ann
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method signature="loginTest()[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:17:09Z" name="loginTest" finished-at="2018-12-13T15:17:09Z" duration-ms="20" status="SKIP">
+        <test-method signature="loginTest()[pri:1, instance:com.makemytrip.qa.testcases.SignInPageTest@7dcf94f8]" started-at="2018-12-13T15:24:47Z" name="loginTest" finished-at="2018-12-13T15:24:47Z" duration-ms="3" status="SKIP">
         </test-method>
-        <test-method is-config="true" signature="cbrowser()[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@682b2fa]" started-at="2018-12-13T15:17:09Z" name="cbrowser" finished-at="2018-12-13T15:17:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="cbrowser()[pri:0, instance:com.makemytrip.qa.testcases.SignInPageTest@7dcf94f8]" started-at="2018-12-13T15:24:47Z" name="cbrowser" finished-at="2018-12-13T15:24:47Z" duration-ms="0" status="SKIP">
         </test-method>
       </class>
     </test>
